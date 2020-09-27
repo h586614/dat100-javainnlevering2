@@ -15,27 +15,22 @@ public class Matriser {
 	// b)
 	public static String tilStreng(int[][] matrise) {
 
-//		String melding = "\n";
-//		for (int i = 0; i<matrise.length; i++) {
-//			for (int j = 0; j<matrise[i].length; j++) {
-//			System.out.println(melding + matrise[i][j]);	
-//			}
-//		} return melding;  
+	String melding = "\n";
+		for (int i = 0; i<matrise.length; i++) {
+		for (int j = 0; j<matrise[i].length; j++) {
+		System.out.println(melding + matrise[i][j]);	
+		}
+		} return melding;  
 	
-			for (int i=0; i<matrise.length; i++) {
-				for (int j=0; j<matrise.length; j++) {
-					System.out.print(matrise[i][j] + " ");
-				}
-				System.out.println();
-			}
-			return matrise[i][j];
+		
 		
 	}
 
 	// c)
 	public static int[][] skaler(int tall, int[][] matrise) {
 		
-		
+		// TODO
+				throw new UnsupportedOperationException("erLik ikke implementert");
 	
 	}
 
