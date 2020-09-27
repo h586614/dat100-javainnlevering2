@@ -5,23 +5,37 @@ public class Matriser {
 	// a)
 	public static void skrivUt(int[][] matrise) {
 		
-		// TODO
-		throw new UnsupportedOperationException("skrivUt ikke implementert");
+		for (int i = 0; i<matrise.length; i++) {
+			for (int j = 0; j<matrise[i].length; j++) {
+				System.out.println(matrise[i][j] + " ");
+			}
+		}
 	}
 
 	// b)
 	public static String tilStreng(int[][] matrise) {
 
-		// TODO
-		throw new UnsupportedOperationException("tilStreng ikke implementert");
+//		String melding = "\n";
+//		for (int i = 0; i<matrise.length; i++) {
+//			for (int j = 0; j<matrise[i].length; j++) {
+//			System.out.println(melding + matrise[i][j]);	
+//			}
+//		} return melding;  
+	
+			for (int i=0; i<matrise.length; i++) {
+				for (int j=0; j<matrise.length; j++) {
+					System.out.print(matrise[i][j] + " ");
+				}
+				System.out.println();
+			}
+			return matrise[i][j];
 		
 	}
 
 	// c)
 	public static int[][] skaler(int tall, int[][] matrise) {
 		
-		// TODO
-		throw new UnsupportedOperationException("skaler ikke implementert");
+		
 	
 	}
 
